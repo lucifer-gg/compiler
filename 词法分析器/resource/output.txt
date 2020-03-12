@@ -1,0 +1,13 @@
+MAIN null main
+IF null if
+NUMBER 15.2123 15.2123
+NUMBER 43254364 43254364
+MYREG1 6f8d8d8d8 6f8d8d8d8
+MYREG2 7d78986698r7989d 7d78986698r7989d
+DO null do
+RELOPE LT <
+RELOPE GT >
+RELOPE E =
+ID gfdjdasgsd gfdjdasgsd
+ID as785hgq3sag as785hgq3sag
+ID gdusgijtruhagyiew7898574 gdusgijtruhagyiew7898574

@@ -1,0 +1,17 @@
+0 :S->id = E
+1 :S->if(C){S}else{S}
+2 :S->while(C){S}
+3 :E->T E'
+4 :E'->+ T E'
+5 :E'->ε
+6 :T->F T'
+7 :T'->* F T'
+8 :T'->ε
+9 :F->( E )
+10:F->id
+11:F->num
+12:C->D C'
+13:C'->LO D C'
+14:C'->ε
+15:D->(C)
+16:D->id CO num

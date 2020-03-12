@@ -1,0 +1,23 @@
+THEN then
+ELSE else
+PUBLIC public
+STATIC static
+IF if
+MAIN main
+WHILE while
+DO do
+
+ID letter(letter|digit)*
+NUMBER digitdigit*(\.digitdigit*|ε)
+MYREG1 digitletter(digitletter)*digit
+MYREG2 digit(letterdigitdigit*)*letter
+digit 0|1|2|3|4|5|6|7|8|9
+letter a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z
+
+RELOP/LT <
+RELOP/GT >
+RELOP/GE >=
+RELOP/NE !=
+RELOP/LE <=
+RELOP/EQ ==
+RELOPE/E =

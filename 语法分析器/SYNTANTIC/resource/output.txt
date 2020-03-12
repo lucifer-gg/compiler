@@ -1,0 +1,20 @@
+S->while(C){S}
+C->D C'
+D->id CO num
+C'->ε
+S->if(C){S}else{S}
+C->D C'
+D->id CO num
+C'->ε
+S->id = E
+E->T E'
+T->F T'
+F->num
+T'->ε
+E'->ε
+S->id = E
+E->T E'
+T->F T'
+F->id
+T'->ε
+E'->ε
